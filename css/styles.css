@@ -208,7 +208,8 @@ a{
     gap: 60px;
 }
 
-.about-empresa h3{
+.about-empresa h3, 
+.aparte{
     color: #FFFFFF;
 }
 
@@ -238,6 +239,28 @@ a{
     background-color: #6B7278;
     padding: 6px 5px;
     border-radius: 3px;
+}
+
+.fotosrecientes .post{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 15px 0;
+}
+
+.fotosrecientes .post p{
+    color: #FFFFFF;
+}
+
+.fotosrecientes hr{
+    border: none;
+    height: 2px;
+    background: linear-gradient(to right,#444, #999);
+}
+
+.fotosrecientes .post img{
+    width: 90px;
+    height: 60px;
 }
 
 .newsletter form{
@@ -280,32 +303,39 @@ a{
 
 /* FOOTER */
 footer{
-    background-color: #26272E;
-    color: #6B7278;
-    display: flex;
-    justify-content: space-between;
-    padding: 30px 25px;
-    font-size: 13px;
+  background-color: #26272E;
+  color: #6B7278;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 35px;
+  font-size: 13px;
 }
 
-.links-footer ul{
-    display: flex;
-    list-style: none;
+.copyright-footer{
+  text-align: left;
 }
 
-.links-footer li a{
-    color: #6B7278;
+.links-footer ul {
+  display: flex;
+  list-style: none;
+  gap: 18px;
 }
 
-.links-footer li::after{
-    content: "•";
-    font-size: 15px;
-    margin: 0 18px;
-    color: #0ee8f0;
+.links-footer li::after {
+  content: "•";
+  color: #0ee8f0;
+  margin-left: 10px;
 }
 
 .links-footer li:last-child::after {
   content: "";
+}
+
+.links-footer a {
+  text-decoration: none;
+  color: #6B7278;
+  font-weight: 600;
 }
 
 
