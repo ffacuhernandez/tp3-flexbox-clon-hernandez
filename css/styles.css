@@ -105,14 +105,19 @@ a{
     font-size: 15px;
 }
 
-.imagen{
-    width: 35%;
+.texto hr{
+    border: none;
+    height: 2px;
+    background: linear-gradient(to right, #00cfff, #005eff);
 }
 
-.descripcion .imagen img {
-    max-width: 100%;
-    max-height: 100%;
+.imagen{
+    width: 35%;
     text-align: center;
+}
+
+.imagen img {
+    max-width: 100%;
 }
 
 .texto p{
@@ -123,67 +128,186 @@ a{
 .desc-team{
     background-color: #F6F8FA;
     display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap; 
     margin-bottom: 35px;
-    padding: 20px 30px;
-    text-align: center;
-    gap: 20px;
+    padding: 30px 25px;
+    gap: 100px;
     line-height: 45px;
 }
 
-.titulos{
+.desc-team div {
+    max-width: 450px;
+    text-align: center;
+}
+
+.titulos {
+    font-weight: 350;
     font-size: 30px;
 }
 
+.titulos strong{
+    font-weight: 800;
+}
+
+/* TERCER SECTION */
 .photo-team{
     display: flex;
 }
 
 .photo-team img{
     width: 25%;
+    filter: grayscale(100%);
+    transition: filter 0.3s ease;
 }
 
+.photo-team img:hover{
+    filter: grayscale(0%);
+}
+
+/* CUARTA SECTION */
 .start-project{
-    background-image:
-    linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.3)), 
-    url(../img/triangulos.jpg);
+    background-image: url(../img/triangles.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 10px 30px;
+    padding: 35px 0;
+    gap: 30px;
 }
 
 .start-project h2{
-    font-size: 80px;
+    font-size: 70px;
+    max-width: 600px;
+    text-align: center;
 }
 
+.start-project p{
+    font-size: 25px;
+    color: #3f4449;
+}
+
+.start-project button{
+    font-size: 18px;
+    color: #FFFFFF;
+    background-color: #0CB9E7;
+    padding: 20px 30px;
+    border-radius: 8px;
+    border-style: none;
+}
+
+/* QUINTA SECCION */
 .about-empresa{
     background-color: #22242A;
     display: flex;
+    padding: 35px 28px;
+    max-width: 100%;
+    gap: 60px;
+}
+
+.about-empresa h3{
+    color: #FFFFFF;
+}
+
+.about-empresa p{
+    color: #5a5d5f;
+    font-size: 16px;
+}
+
+.about-empresa > div{
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    line-height: 30px;
+    max-width: 430px;
+    width: 25%;
 }
 
 .redes{
     display: flex;
+    gap: 30px;
 }
 
 .redes img{
     width: 20px;
     height: 20px;
+    background-color: #6B7278;
+    padding: 6px 5px;
+    border-radius: 3px;
 }
 
+.newsletter form{
+    border-style: solid;
+    border-width: 4px;
+    border-color: #5a5d5f;
+    padding: 30px;
+}
 
+.enviar-info{
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    gap: 20px;
+}
+
+.newsletter p{
+    padding-bottom: 30px;
+}
+
+.newsletter input{
+    border-style: solid;
+    border-width: 4px;
+    border-color: #5a5d5f;
+    background-color: #26272E;
+    padding: 20px;
+}
+
+.newsletter input::placeholder{
+    color: #FFFFFF;
+}
+
+.newsletter button{
+    border-style: none;
+    font-size: 16px;
+    color: #FFFFFF;
+    padding: 20px 15px;
+    background-color: #0CB9E7;
+}
+
+/* FOOTER */
 footer{
     background-color: #26272E;
+    color: #6B7278;
     display: flex;
     justify-content: space-between;
+    padding: 30px 25px;
     font-size: 13px;
 }
 
-.copyright-footer,
-.links-footer a{
+.links-footer ul{
+    display: flex;
+    list-style: none;
+}
+
+.links-footer li a{
     color: #6B7278;
 }
+
+.links-footer li::after{
+    content: "•";
+    font-size: 15px;
+    margin: 0 18px;
+    color: #0ee8f0;
+}
+
+.links-footer li:last-child::after {
+  content: "";
+}
+
+
 
 
