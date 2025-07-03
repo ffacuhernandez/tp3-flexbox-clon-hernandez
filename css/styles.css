@@ -10,7 +10,6 @@ body{
 }
 
 .contenedor {
-    width: 100%;
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -71,6 +70,11 @@ a{
 
 .nav-header .azulado{
     color: #00cfff;
+}
+
+.nav-header img{
+    width: 30px;
+    height: 30px;
 }
 
 /* TITLE HEADER */
