@@ -69,6 +69,10 @@ a{
     color: #FFFFFF;
 }
 
+.nav-header .azulado{
+    color: #00cfff;
+}
+
 /* TITLE HEADER */
 .title-header {
     display: flex;
@@ -196,7 +200,8 @@ a{
     background-color: #0CB9E7;
     padding: 20px 30px;
     border-radius: 8px;
-    border-style: none;
+    border: none;
+    cursor: pointer;
 }
 
 /* QUINTA SECCION */
@@ -299,6 +304,7 @@ a{
     color: #FFFFFF;
     padding: 20px 15px;
     background-color: #0CB9E7;
+    cursor: pointer;
 }
 
 /* FOOTER */
