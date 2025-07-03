@@ -1,4 +1,4 @@
-# 💻 TP3 - EasyWeb  
+# 💻 TP3 - Flexbox-Clon
 El trabajo es una réplica estática de un sitio web. Esta página fue desarrollada utilizando **HTML5** y **CSS3** con diseño responsivo basico, y simula una landing page.
 
 🔗 **[Ver página online AQUÍ](https://ffacuhernandez.github.io/tp3-flexbox-clon-hernandez/)**
